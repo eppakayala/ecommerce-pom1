@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12544" started-at="2019-05-19T21:16:16Z" finished-at="2019-05-19T21:16:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12544" started-at="2019-05-19T21:16:16Z" finished-at="2019-05-19T21:16:29Z">
+      <class name="com.apex.ecommerce.login.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="setUp" is-config="true" duration-ms="5088" started-at="2019-05-19T14:16:16Z" finished-at="2019-05-19T14:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWithBlankData()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="testWithBlankData" duration-ms="5" started-at="2019-05-19T14:16:21Z" finished-at="2019-05-19T14:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithBlankData -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="cleanUp" is-config="true" duration-ms="7" started-at="2019-05-19T14:16:21Z" finished-at="2019-05-19T14:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="setUp" is-config="true" duration-ms="3270" started-at="2019-05-19T14:16:21Z" finished-at="2019-05-19T14:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWithBlankUser()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="testWithBlankUser" duration-ms="1" started-at="2019-05-19T14:16:25Z" finished-at="2019-05-19T14:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithBlankUser -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="cleanUp" is-config="true" duration-ms="9" started-at="2019-05-19T14:16:25Z" finished-at="2019-05-19T14:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="setUp" is-config="true" duration-ms="3383" started-at="2019-05-19T14:16:25Z" finished-at="2019-05-19T14:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWithCorrectData()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="testWithCorrectData" duration-ms="690" started-at="2019-05-19T14:16:28Z" finished-at="2019-05-19T14:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithCorrectData -->
+        <test-method status="FAIL" signature="cleanUp()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-05-19T14:16:29Z" finished-at="2019-05-19T14:16:29Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Window not found. The browser window may have been closed.
+Command duration or timeout: 39 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'gopikrishnasmbp.lan', ip: '192.168.86.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f6be1980-3a58-0542-8de8-a3e0bda979f4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 39 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'gopikrishnasmbp.lan', ip: '192.168.86.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f6be1980-3a58-0542-8de8-a3e0bda979f4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+	at com.apex.ecommerce.core.ApexBaseTest.cleanUp(ApexBaseTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'gopikrishnasmbp.lan', ip: '192.168.86.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12719)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9558)
+	at <anonymous class>.Resource.prototype.handle(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9705)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9652)
+	at <anonymous class>.WebDriverServer/<.handle(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12517)
+	at <anonymous class>.createHandlerFunc/<(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at <anonymous class>.Connection.prototype.process(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///var/folders/v9/6gfs6x1s6918vnsfhs97sklc0000gn/T/anonymous5719653660806316946webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-19T14:16:29Z" finished-at="2019-05-19T14:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testWithLockedUser()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="testWithLockedUser" duration-ms="1" started-at="2019-05-19T14:16:29Z" finished-at="2019-05-19T14:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithLockedUser -->
+        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:com.apex.ecommerce.login.LoginTest@1b604f19]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-05-19T14:16:29Z" finished-at="2019-05-19T14:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.apex.ecommerce.login.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
